@@ -22964,10 +22964,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
+	cr.plugins_.Touch,
+	cr.plugins_.TextBox,
 	cr.plugins_.Text,
 	cr.plugins_.Sprite,
-	cr.plugins_.TextBox,
-	cr.plugins_.Touch,
 	cr.behaviors.solid,
 	cr.behaviors.Sin,
 	cr.behaviors.Timer,
